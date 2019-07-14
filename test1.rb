@@ -3,7 +3,8 @@
 В цикле выводить те месяцы, у которых количество дней ровно 30
 =end
 
-months = {"January" => 31,
+months = {
+  "January" => 31,
   "February" => 28,
   "March" => 31,
   "April" => 30,
