@@ -12,7 +12,7 @@ loop do
   cart[name] = {price: price, count: count}
 end
 
-cart.each {|name, hash| sum += hash["price"] * hash["count"]}
+cart.each {|name, hash| sum += hash[:price] * hash[:count]}
 
 puts cart
 puts "Итого: #{sum}"
