@@ -3,10 +3,10 @@
 буквы в алфавите (a - 1).
 =end
 alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-vowels= "аеёиоуыэюя"
+vowels = "аеёиоуыэюя"
 vowels_hash = {}
 
-for i in 0..vowels.length - 1
+vowels.length.times do |i|
   vowels_hash[vowels[i]] = alphabet.index(vowels[i]) + 1
 end
 

@@ -9,7 +9,7 @@ loop do
   print "Кол-во товара: "
   count = gets.chomp.to_f
 
-  cart[name] = {"price" => price, "count" => count}
+  cart[name] = {price: price, count: count}
 end
 
 cart.each {|name, hash| sum += hash["price"] * hash["count"]}
